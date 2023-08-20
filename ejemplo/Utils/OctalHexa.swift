@@ -19,7 +19,7 @@ class OctalHexa{
         
         numberToReturn = ToBinary(number: number).OctalToBinary()
         if(numberToReturn != "N/A"){
-            numberToReturn = FromBinary(binary: numberToReturn).binaryToOctal()
+            numberToReturn = FromBinary(binary: numberToReturn).binaryToHexa()
         }
         
         
